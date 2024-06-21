@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left_menu {
+    float:left; 
+    width:24%; 
+    margin-left:0.5%;
+}
+
+.conteiner {
+    display: block;
+    background-color: rgba(160, 156, 189, 0.236);
+    margin: 0px;
+    padding: 0px;
+    border-style:solid;
+    border-width: 3px;
+    border-color:rgb(79, 79, 177);
+}
+
+.menu1 {
+    display: block;
+    text-align: center;
+    text-decoration:none; 
+    width:300px; 
+    height:710px; 
+    line-height:60px;  
+    margin-left: 0px;;
+    padding-left:0px;
+    list-style: none;
+}
+
+.li1 {
+    display: inline-block;
+    margin:18px;
+    padding: 0px;
+    background: rgb(96, 135, 197);
+    font-size:20pt; 
+    width: 245pt;
+    height: 82px;
+    font-family:Arial;
+}
+
+.menu1 a {
+    display: block;
+    padding: 9px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(79, 79, 177);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px rgba(10, 12, 10, 0.492);
+}
+
+.menu1 a:hover {
+    background-color: rgba(160, 156, 189, 0.236);
+
+}
+
+.right {
+    float:left; 
+    width:73.5%;
+    margin-left:0.5%;
+
+}
+
+.conteiner-right {
+    display: inline-block;
+    background-color: rgba(220, 210, 171, 0.452);
+    margin: 0px;
+    padding: 0px;
+    border-style:solid;
+    border-width: 3px;
+    border-color:rgb(228, 153, 24);
+    width:1140px; 
+    height:742px; 
+}
+
+
+
+.text {
+    display: block;
+    text-align: center;
+    border-style:solid;
+    border-width: 3px;
+    display: inline-block;
+    background-color: rgba(152, 248, 133, 0.238);
+    margin: 40px;
+    padding: 0px;
+    border-color:rgb(79, 79, 177);
+    width: 1063px;
+    margin-left:3%;
+    font-size:20pt; 
+    font-family:Arial
+
+}
+
+.text-2 {
+    display: block;
+    text-align: center;
+    border-style:solid;
+    border-width: 3px;
+    display: inline-block;
+    background-color: rgba(220, 210, 171, 0.452);
+    margin: 0px;
+    padding: 0px;
+    border-color:rgb(14, 14, 16);
+    width: 1063px;
+    height: 450px;
+    margin-left:3%;
+    line-height: 60pt;
+    font-size:40pt; 
+    font-family:Arial
+}
